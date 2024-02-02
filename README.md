@@ -1,9 +1,6 @@
 # LeetCode Problems and Solutions
 
-Welcome to the LeetCode Solutions repository! This collection contains my solutions to various LeetCode coding challenges. Each problem is solved using different programming languages, providing a diverse set of solutions for fellow developers and coding enthusiasts.
-
-## Table of Contents
-- [Java Solutions](/JavaSolutions)
+Welcome to the LeetCode Solutions repository! This collection contains my solutions to various LeetCode coding challenges. Each problem is solved using JAVA, providing a diverse set of solutions for fellow developers and coding enthusiasts.
 
 ## Code Quality
 - Prioritize code readability and clarity.
