@@ -13,7 +13,7 @@ class Solution {
             }
         }
 
-        //find duplicate
+        //find missing number 
         for(int i = 0; i < arr.length;){
             if(i == arr[i] - 1){
                 i++;
