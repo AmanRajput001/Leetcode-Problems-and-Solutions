@@ -13,13 +13,13 @@ class Solution {
             }
         }
 
-            for (int i = 0; i < arr.length; i++) {
-                if (i == arr[i]) {
-                    // continue
-                } else {
-                    return i;
-                }
+        for (int i = 0; i < arr.length; i++) {
+            if (i == arr[i]) {
+                // continue
+            } else {
+                return i;
             }
-            return arr.length;
+        }
+        return arr.length;
     }
 }
