@@ -27,8 +27,6 @@ class Solution {
             }
         }
         
-        //System.out.println(Arrays.toString(arr));
-
         if(!(ls.contains(arr.length)) && (arr[arr.length - 1] != arr.length)){
             ls.add(arr.length);
             
