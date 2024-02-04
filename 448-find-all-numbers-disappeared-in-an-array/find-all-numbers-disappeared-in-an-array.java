@@ -1,7 +1,7 @@
 // Google Question
 
 class Solution {
-    public List<Integer> findDisappearedNumbers(int[] arr) {
+    void sortArray(int[] arr){
         // cylic sort
         for(int i = 0; i < arr.length;){
             int correct_index = arr[i] - 1;
@@ -14,6 +14,10 @@ class Solution {
                 arr[i] = temp;
             }
         }
+    }
+
+    public List<Integer> findDisappearedNumbers(int[] arr) {
+        sortArray(arr);
 
         List<Integer> ls = new ArrayList<>();
 
