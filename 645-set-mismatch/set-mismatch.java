@@ -1,7 +1,7 @@
 class Solution {
     public int[] findErrorNums(int[] arr) {
 
-// cyclic sort
+        // cyclic sort
         for(int i = 0; i < arr.length;){
             int correct = arr[i] - 1;
             if(arr[correct] == arr[i]){
