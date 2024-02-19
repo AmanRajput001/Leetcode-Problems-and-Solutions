@@ -12,12 +12,7 @@ class Solution {
                 alice = true;
                 bob = false;
             }
-
-            
-            //System.out.println(alice + " " + bob + " " + n);
             n = n - 1;
-
-
         }
 
         return alice;
