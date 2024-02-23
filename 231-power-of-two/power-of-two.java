@@ -21,7 +21,7 @@ class Solution {
              * return false;
              */
 
-            // Approach 2:
+            // Approach 2: Using recursion
 
             return n % 2 == 0 && isPowerOfTwo(n / 2);
         }
