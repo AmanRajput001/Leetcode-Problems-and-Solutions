@@ -22,10 +22,10 @@ class Solution {
         System.out.println(size);
         int mid;
 
-        if((size+1) % 2 == 0){
-            mid = (size+1)/2;
-        }else{
-                       mid = (size+2)/2; 
+        if ((size + 1) % 2 == 0) {
+            mid = (size + 1) / 2;
+        } else {
+            mid = (size + 2) / 2;
         }
 
         ListNode midList = new ListNode();
