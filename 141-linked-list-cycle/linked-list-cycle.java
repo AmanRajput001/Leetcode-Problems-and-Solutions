@@ -11,7 +11,7 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        if((head == null) || (head.next == null) || (head.next.next == null)){
+        if((head == null)){
             return false;
         }
         
